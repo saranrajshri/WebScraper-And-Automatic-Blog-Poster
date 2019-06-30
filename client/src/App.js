@@ -3,8 +3,6 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-import HamOrSpam from "./components/HamOrSpam";
-import MovieRecommendation from "./components/MovieRecommendation";
 import Blog from './components/Blog'
 
 import { BrowserRouter as Router } from "react-router-dom";
