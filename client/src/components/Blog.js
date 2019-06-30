@@ -17,7 +17,7 @@ class Blog extends React.Component{
 		this.setState({
 			quotes:newArr
 		})
-		axios.post('http://localhost:8000/addPost',{
+		axios.post('/addPost',{
 			quote:this.state.quote
 		})
 	}
