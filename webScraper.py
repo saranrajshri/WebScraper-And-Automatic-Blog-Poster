@@ -24,7 +24,7 @@ driver=webdriver.Chrome()
  
 driver.maximize_window()
  
-driver.get('http://localhost:3000/automatedBlogPost')
+driver.get('http://saranrajprojects.herokuapp.com/automatedBlogPost')
 
 for i in range(len(result)):
 	driver.find_element_by_css_selector('.quote-body').send_keys(result[i])
